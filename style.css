@@ -1,0 +1,221 @@
+body {
+    /*background-image: url('https://images.complex.com/complex/image/upload/t_in_content_image/nike-hyperadapt-trainer-2_o45bdb.jpg');
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    */
+
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+-1,f5f6f6+0,f5f6f6+9,dbdce2+26,b8bac6+44,f5f6f6+82,f5f6f6+82,dddfe3+86 */
+    background: rgb(245,246,246); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(245,246,246,1) -1%, rgba(245,246,246,1) 0%, rgba(245,246,246,1) 9%, rgba(219,220,226,1) 26%, rgba(184,186,198,1) 44%, rgba(245,246,246,1) 82%, rgba(245,246,246,1) 82%, rgba(221,223,227,1) 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(245,246,246,1) -1%,rgba(245,246,246,1) 0%,rgba(245,246,246,1) 9%,rgba(219,220,226,1) 26%,rgba(184,186,198,1) 44%,rgba(245,246,246,1) 82%,rgba(245,246,246,1) 82%,rgba(221,223,227,1) 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(245,246,246,1) -1%,rgba(245,246,246,1) 0%,rgba(245,246,246,1) 9%,rgba(219,220,226,1) 26%,rgba(184,186,198,1) 44%,rgba(245,246,246,1) 82%,rgba(245,246,246,1) 82%,rgba(221,223,227,1) 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#dddfe3',GradientType=1 ); /* IE6-9 */
+    
+  }
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .nike-logo{
+    float: right;
+    }
+
+  .title{
+      text-align: center;
+      font-size: 1.8rem;
+  }
+
+.location{
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  bottom: 450px;
+  text-decoration: underline;
+}
+
+.button
+{
+	box-shadow: 0px 3px 20px -3px #5f92a3;
+	background-color:#000000;
+	border-radius:35px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Verdana;
+	font-size:17px;
+	padding:26px 76px;
+	text-decoration:none;
+  text-shadow:-1px -1px 15px #e1e2ed;
+}
+.button:hover {
+	background-color:#bab1ba;
+}
+.button:active {
+	position:relative;
+  top:1px;
+  
+}
+
+.NYC {
+	position: relative;
+	bottom: 400PX;
+	left: 600PX;
+	padding: 10px;
+  }
+
+.ARENA {
+	position: relative;
+	bottom: 400PX;
+	left: 590PX;
+	padding: 10px;
+}
+.WOMENS {
+	position: relative;
+	bottom: 400PX;
+	left: 580PX;
+	padding: 10px;
+}
+.MENS {
+	position: relative;
+	bottom: 400PX;
+	left: 595PX;
+	padding: 10px;
+}
+
+.MEMBERS {
+	position: relative;
+	bottom: 400PX;
+	left: 580PX;
+	padding: 10px;
+}
+
+.BREAKROOM {
+	position: relative;
+	bottom: 400PX;
+	left: 570PX;
+	padding: 10px;
+}
+
+.OFFICES {
+	position: relative;
+	bottom: 400PX;
+	left: 590PX;
+	padding: 10px;
+}
+
+.SNKR {
+	position: relative;
+	bottom: 400PX;
+	left: 595PX;
+	padding: 10px;
+}
+
+.footer {
+background-color: #000000;
+font: 1.8rem;
+font-weight: 600;
+text-align: center;
+color: white;
+}
+  
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*start grid*/
+  
+*{
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  float:right;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
